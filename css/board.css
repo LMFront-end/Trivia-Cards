@@ -1,0 +1,43 @@
+/*Georama font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300&display=swap');
+:root {
+    --Georama: 'Georama', sans-serif;
+}
+
+
+/* colors*/
+
+:root {
+    --red: #e74c3c;
+    --black: #252a34;
+    --blue: #3498db;
+    --lightBlue: #81ecec;
+    --turquesa: #1abc9c;
+    --white: #fff;
+    --pink: #fd79a8;
+    --lightPink: #fab1a0;
+    --purple: #9b59b6;
+}
+
+
+/*vintage*/
+
+:root {
+    --vintage1: #dcd190;
+    --vintage2: #e8e8c1;
+    --vintage3: #caa5af;
+    --vintage4: #e0c4cc
+}
+
+body {
+    font-family: var(--Georama);
+    background: var(--black);
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: var(--vintage1);
+    text-shadow: 2px 2px 2px #dcd190;
+}
